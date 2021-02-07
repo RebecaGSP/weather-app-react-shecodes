@@ -17,3 +17,4 @@ export default function Weather(props) {
         <h2>Hello from Weather</h2>
     )
 }
+

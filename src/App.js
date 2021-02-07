@@ -1,15 +1,13 @@
-import './App.css';
-import Weather from "./Weather"
+import React from "react";
+import Card from "./Card";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-       <h1>Hello World</h1>
-       <Weather city="New York"/>
-      </header>
+      <div class="weather-app-wrapper">
+        <Card />
+      </div>
     </div>
   );
 }
-
-export default App;

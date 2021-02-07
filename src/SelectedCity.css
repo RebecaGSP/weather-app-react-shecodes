@@ -1,0 +1,38 @@
+.actual-temperature h2 {
+    font-size: 35px;
+    line-height: 1.5;
+    font-weight: lighter;
+    padding-left: 10px;
+  }
+  
+  .actual-temperature a {
+    line-height: 1.5;
+  }
+  
+  .actual-temperature span {
+    font-weight: lighter;
+  }
+  
+  .actual-temperature .inactive {
+    color: black;
+    cursor: default;
+  }
+  
+  .actual-temperature .inactive:hover {
+    text-decoration: none;
+  }
+  
+  .selectedCity img {
+    width: 60px;
+  }
+  
+  .selectedCity h4 {
+    text-transform: capitalize;
+    font-size: 10px;
+  }
+  
+  .selectedCity h5 {
+    text-transform: capitalize;
+    font-weight: lighter;
+  }
+  
